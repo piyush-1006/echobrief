@@ -1,0 +1,31 @@
+[theme]
+base = "dark"
+primaryColor = "#E8A849"
+backgroundColor = "#161514"
+secondaryBackgroundColor = "#211F1D"
+textColor = "#F4F0E8"
+borderColor = "#3A3631"
+linkColor = "#E8A849"
+font = "'DM Sans':https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+headingFont = "'DM Serif Display':https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
+baseFontSize = 16
+baseRadius = "large"
+buttonRadius = "full"
+showWidgetBorder = true
+showSidebarBorder = true
+greenColor = "#78B77A"
+orangeColor = "#E8A849"
+redColor = "#E98575"
+blueColor = "#8EB4D6"
+violetColor = "#B49AD9"
+
+[theme.sidebar]
+backgroundColor = "#1C1A18"
+secondaryBackgroundColor = "#292622"
+textColor = "#F4F0E8"
+borderColor = "#3A3631"
+
+[server]
+# Avoid Streamlit inspecting optional Transformers vision modules on startup.
+# Restart Streamlit manually after changing source files.
+fileWatcherType = "none"

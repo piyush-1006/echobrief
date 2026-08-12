@@ -1,0 +1,22 @@
+# Large binaries & Executables
+*.exe
+ffmpeg*
+
+# Audio, Video & Downloads
+downloads/
+*.wav
+*.mp3
+*.mp4
+*.m4a
+
+# Database & Cache
+vector_db/
+*.sqlite3
+*.bin
+
+# Secrets & Virtual Envs
+.env
+.venv/
+env/
+__pycache__/
+*.pyc
