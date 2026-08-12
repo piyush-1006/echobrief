@@ -9,3 +9,4 @@ ffmpeg-python==0.2.0
 pydub==0.25.1
 openai-whisper==20250625
 torch==2.13.0
+pyaudioop
